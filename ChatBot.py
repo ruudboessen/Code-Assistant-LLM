@@ -10,6 +10,8 @@ def load_model():
 
 model = load_model()  # load our ChatModel once and then cache it
 
+# what if I add some text here and then commit this script.
+
 with st.sidebar:
     temperature = st.slider("temperature", 0.0, 2.0, 0.1)
     top_p = st.slider("top_p", 0.0, 1.0, 0.9)
